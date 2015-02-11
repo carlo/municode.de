@@ -130,8 +130,9 @@ a:visited {
 }
 
 .PageHeader p {
-  font-size: 3.2rem;
+  font-size: 2.6rem;
   font-weight: 200;
+  line-height: 1.25;
 }
 
 
