@@ -149,6 +149,27 @@ a:visited {
 
 /* -------------------------------------------------------------------------- */
 
+.Endorsement {
+  border-bottom: 0.1rem dashed #eee;
+  margin-bottom: 2rem;
+}
+
+.Endorsement-quote {
+  border-left: 0.5rem solid #f8f8f8;
+  margin-left: 0;
+  padding-left: 1rem;
+}
+
+.Endorsement-meta {
+  display: block;
+  font-size: 1.5rem;
+  margin-left: 2.5rem;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+
 .PageFooter {
   font-family: "nimbus-sans-1", "nimbus-sans-2", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1rem;
