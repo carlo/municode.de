@@ -185,3 +185,17 @@ a:visited {
 #content {
   min-height: 100rem;
 }
+
+
+
+/* -------------------------------------------------------------------------- */
+
+.vcard .photo,
+.vcard .url,
+.vcard .org {
+  display: none;
+}
+
+.vcard .tel {
+  white-space: nowrap;
+}
