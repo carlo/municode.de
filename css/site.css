@@ -42,7 +42,6 @@ h3 {
 @media (max-width: 640px) {
   h1 {
     font-size: 3rem;
-    margin-top: 2rem;
   }
 
   h2 {
@@ -184,6 +183,36 @@ a:visited {
   background-color: #eee;
   padding: 2rem 0;
   margin-top: 8rem;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+
+.Crosslink {
+  border-bottom: 2px solid rgba(200, 200, 200, 0.1);
+  background-color: #ffffcd;
+  font-family: "nimbus-sans-1", "nimbus-sans-2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.75em;
+  opacity: 0.85;
+  padding: 5rem 5rem 1rem 20rem;
+  position: fixed;
+  right: -7rem;
+  text-align: right;
+  top: -7rem;
+  transform: rotate(23deg);
+}
+
+.Crosslink-link {
+  background: transparent;
+  text-decoration: none;
+}
+
+@media (max-width: 640px) {
+  .Crosslink {
+    font-size: 0.65em;
+    position: absolute;
+  }
 }
 
 
